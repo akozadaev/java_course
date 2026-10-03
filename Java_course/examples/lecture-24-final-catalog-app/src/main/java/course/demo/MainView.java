@@ -1,0 +1,1 @@
+package course.demo; import com.vaadin.flow.component.grid.*; import com.vaadin.flow.component.orderedlayout.*; import com.vaadin.flow.router.*; @Route("") public class MainView extends VerticalLayout { public MainView(ProductRepository repository){var grid=new Grid<Product>();grid.setItems(repository.findAll());add(grid);} }

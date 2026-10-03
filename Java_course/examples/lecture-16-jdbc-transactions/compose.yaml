@@ -1,0 +1,8 @@
+services:
+  postgres:
+    image: postgres:18
+    environment:
+      POSTGRES_DB: course
+      POSTGRES_USER: course
+      POSTGRES_PASSWORD: course
+    ports: ["5432:5432"]

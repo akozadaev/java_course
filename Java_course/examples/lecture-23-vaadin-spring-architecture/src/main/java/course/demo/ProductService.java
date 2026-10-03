@@ -1,0 +1,1 @@
+package course.demo; import org.springframework.stereotype.Service; import java.util.*; @Service public class ProductService { public record ProductDto(long id,String name){} public List<ProductDto> findAll(){return List.of(new ProductDto(1,"Java Book"),new ProductDto(2,"Spring Course"));} }
