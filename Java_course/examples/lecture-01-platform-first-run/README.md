@@ -2,8 +2,14 @@
 
 Требования: JDK 25 и Maven 3.9.x.
 
+Запуск без аргументов:
 ```bash
 mvn compile exec:java
+```
+
+Запуск с аргументами:
+```bash
+mvn -q compile exec:java -Dexec.args="one two three"
 ```
 
 Ожидаемый результат: строки с версией Java 25 и переданными аргументами.
