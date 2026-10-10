@@ -1,0 +1,1 @@
+<resources><string name="app_name">Библиотека</string><string name="title">Каталог книг</string><string name="search_hint">Название или автор</string><string name="search">Найти</string><string name="empty">Книги не найдены</string><string name="server_error">Ошибка сервера: %1$d</string><string name="network_error">Ошибка сети: %1$s</string></resources>

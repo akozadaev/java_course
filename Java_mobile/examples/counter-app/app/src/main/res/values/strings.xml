@@ -1,0 +1,1 @@
+<resources><string name="app_name">Счётчик</string><string name="title">Приложение-счётчик</string><string name="increment">Увеличить</string><string name="decrement">Уменьшить</string><string name="reset">Сбросить</string><string name="zero">Ноль</string><string name="small">Малое значение</string><string name="large">Большое значение</string></resources>

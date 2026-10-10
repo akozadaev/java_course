@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Визитка студента</string>
+    <string name="initials">АК</string>
+    <string name="student_name">Козадаев Алексей</string>
+    <string name="student_group">Группа 007</string>
+    <string name="interests_title">ПРОФЕССИОНАЛЬНЫЕ ИНТЕРЕСЫ</string>
+    <string name="interests">Golang backend-разработчик | Преподаватель</string>
+    <string name="about_student">Привет! Меня зовут Алексей Козадаев. Я Golang backend-разработчик из Тамбова с коммерческим опытом работы в IT с 2013 года. Работал как разработчиком, так и руководителем. Мой основной фокус — проектирование и разработка backend-систем и микросервисов на Go, а также преподавание.</string>
+    <string name="show_greeting">Показать приветствие</string>
+</resources>
