@@ -1,1 +1,3 @@
-module course.reflection.demo { exports course.demo; }
+module course.reflection.demo {
+    exports course.demo;
+}

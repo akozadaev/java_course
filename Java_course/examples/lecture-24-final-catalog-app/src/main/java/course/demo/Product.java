@@ -1,1 +1,19 @@
-package course.demo; import jakarta.persistence.*; @Entity public class Product { @Id @GeneratedValue(strategy=GenerationType.IDENTITY) public Long id; @Column(nullable=false,unique=true) public String name; protected Product(){} public Product(String name){this.name=name;} }
+package course.demo;
+
+import jakarta.persistence.*;
+
+@Entity
+public class Product {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    public Long id;
+    @Column(nullable = false, unique = true)
+    public String name;
+
+    protected Product() {
+    }
+
+    public Product(String name) {
+        this.name = name;
+    }
+}

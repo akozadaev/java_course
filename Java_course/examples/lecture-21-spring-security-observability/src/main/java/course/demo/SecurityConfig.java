@@ -1,1 +1,14 @@
-package course.demo; import org.springframework.context.annotation.*; import org.springframework.security.config.*; import org.springframework.security.config.annotation.web.builders.*; import org.springframework.security.web.*; @Configuration public class SecurityConfig { @Bean SecurityFilterChain security(HttpSecurity http)throws Exception{return http.authorizeHttpRequests(a->a.requestMatchers("/actuator/health").permitAll().anyRequest().authenticated()).httpBasic(Customizer.withDefaults()).build();} }
+package course.demo;
+
+import org.springframework.context.annotation.*;
+import org.springframework.security.config.*;
+import org.springframework.security.config.annotation.web.builders.*;
+import org.springframework.security.web.*;
+
+@Configuration
+public class SecurityConfig {
+    @Bean
+    SecurityFilterChain security(HttpSecurity http) throws Exception {
+        return http.authorizeHttpRequests(a -> a.requestMatchers("/actuator/health").permitAll().anyRequest().authenticated()).httpBasic(Customizer.withDefaults()).build();
+    }
+}
